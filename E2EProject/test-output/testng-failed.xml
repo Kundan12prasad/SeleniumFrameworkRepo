@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="org.academy.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Validate Title(failed)" parallel="tests">
+    <classes>
+      <class name="org.academy.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="validateAppTitleTest"/>
+        </methods>
+      </class> <!-- org.academy.ValidateTitle -->
+    </classes>
+  </test> <!-- Validate Title(failed) -->
+  <test thread-count="5" name="Validate user (failed)" parallel="tests">
+    <classes>
+      <class name="org.academy.BaseTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="initializeDriverTest"/>
+        </methods>
+      </class> <!-- org.academy.BaseTest -->
+    </classes>
+  </test> <!-- Validate user (failed) -->
+  <test thread-count="5" name="Validate NavigationBar(failed)" parallel="tests">
+    <classes>
+      <class name="org.academy.ValidateNavBar">
+        <methods>
+          <include name="validateNavBarTest"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- org.academy.ValidateNavBar -->
+    </classes>
+  </test> <!-- Validate NavigationBar(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,5 @@
+22:37:42.945 [TestNG-tests-2] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x935a48bd3d852439
+22:37:43.233 [TestNG-tests-2] INFO  org.academy.ValidateTitle - Driver is Initialized
+22:38:18.732 [TestNG-tests-1] INFO  org.academy.ValidateNavBar - Navigation bar is diplayed successfully
+22:38:21.371 [TestNG-tests-2] INFO  org.academy.ValidateTitle - Navigated to home page 
+22:38:21.599 [TestNG-tests-2] INFO  org.academy.ValidateTitle - Successfully validated text message

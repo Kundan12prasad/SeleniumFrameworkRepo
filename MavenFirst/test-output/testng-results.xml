@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="194" started-at="2022-03-30T14:38:22 IST" finished-at="2022-03-30T14:38:22 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="194" started-at="2022-03-30T14:38:22 IST" finished-at="2022-03-30T14:38:22 IST">
+      <class name="com.prac.maven.MavenFirst.AppiumTest">
+        <test-method status="PASS" signature="iosApps()[pri:0, instance:com.prac.maven.MavenFirst.AppiumTest@78e67e0a]" name="iosApps" duration-ms="22" started-at="2022-03-30T14:38:22 IST" finished-at="2022-03-30T14:38:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosApps -->
+        <test-method status="PASS" signature="nativeApAndroid()[pri:0, instance:com.prac.maven.MavenFirst.AppiumTest@78e67e0a]" name="nativeApAndroid" duration-ms="10" started-at="2022-03-30T14:38:22 IST" finished-at="2022-03-30T14:38:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nativeApAndroid -->
+      </class> <!-- com.prac.maven.MavenFirst.AppiumTest -->
+      <class name="com.prac.maven.MavenFirst.SeleniumTest">
+        <test-method status="PASS" signature="elementsUI()[pri:0, instance:com.prac.maven.MavenFirst.SeleniumTest@4d50efb8]" name="elementsUI" duration-ms="5" started-at="2022-03-30T14:38:22 IST" finished-at="2022-03-30T14:38:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUI -->
+      </class> <!-- com.prac.maven.MavenFirst.SeleniumTest -->
+      <class name="com.prac.maven.MavenFirst.RestApiTest">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:com.prac.maven.MavenFirst.RestApiTest@7e2d773b]" name="deleteTwitter" duration-ms="8" started-at="2022-03-30T14:38:22 IST" finished-at="2022-03-30T14:38:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method status="PASS" signature="postJira()[pri:0, instance:com.prac.maven.MavenFirst.RestApiTest@7e2d773b]" name="postJira" duration-ms="3" started-at="2022-03-30T14:38:22 IST" finished-at="2022-03-30T14:38:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- com.prac.maven.MavenFirst.RestApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

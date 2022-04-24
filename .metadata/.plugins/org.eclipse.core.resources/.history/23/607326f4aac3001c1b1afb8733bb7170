@@ -1,0 +1,28 @@
+package com.serialize.prac;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+import static io.restassured.RestAssured.*;
+
+import com.pojo.AddPlace;
+
+public class SerializeTest {
+	
+	public static void main(String[] args)
+	{
+		RestAssured.baseURI="https://rahulshettyacademy.com";
+		AddPlace adp=new AddPlace();
+		adp.setAccuracy(50);
+		adp.setName("Frontline house");
+		adp.setPhone_number("(+91) 983 893 3937");
+		
+		Response response = given().queryParam("key","qaclick123").body("").when().post("/maps/api/place/add/json")
+		.then().assertThat().statusCode(200).extract().response();
+		String responseString = response.asString();
+		System.out.println(responseString);
+		
+	}
+	
+
+}

@@ -1,0 +1,2 @@
+Hello!
+This is Rest API automation testing using RestAssured

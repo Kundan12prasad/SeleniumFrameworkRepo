@@ -1,0 +1,11 @@
+package org.oauth.practice;
+
+public class OauthTest {
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

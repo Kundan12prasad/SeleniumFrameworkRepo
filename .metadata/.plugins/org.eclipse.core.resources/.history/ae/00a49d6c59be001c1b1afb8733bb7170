@@ -1,0 +1,12 @@
+package org.practice;
+
+public class SumValidation {
+    
+	@Test
+	public void sumOfCourses()
+	{
+		
+		
+		
+	}
+}

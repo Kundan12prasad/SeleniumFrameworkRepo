@@ -1,0 +1,5 @@
+22:46:26.317 [TestNG-tests-2] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x673415f9db97cfbd
+22:46:26.599 [TestNG-tests-2] INFO  org.academy.ValidateTitle - Driver is Initialized
+22:47:27.952 [Forwarding newSession on session null to remote] INFO  org.academy.BaseTest - text
+22:47:34.638 [TestNG-tests-1] INFO  org.academy.ValidateNavBar - Navigation bar is diplayed successfully
+22:47:34.748 [TestNG-tests-2] INFO  org.academy.ValidateTitle - Navigated to home page 

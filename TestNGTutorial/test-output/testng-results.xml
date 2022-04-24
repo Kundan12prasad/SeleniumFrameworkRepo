@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="13" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="250" started-at="2022-03-29T20:45:41 IST" finished-at="2022-03-29T20:45:42 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="Day1.demo1()[pri:0, instance:com.prac.testng.Day1@6acdbdf5]" name="demo1" class="com.prac.testng.Day1"/>
+        <method signature="Day2.pLoan()[pri:0, instance:com.prac.testng.Day2@27a8c74e]" name="pLoan" class="com.prac.testng.Day2"/>
+        <method signature="Day4.mobileLoginHomeLoan()[pri:0, instance:com.prac.testng.Day4@2d8f65a4]" name="mobileLoginHomeLoan" class="com.prac.testng.Day4"/>
+        <method signature="Day3.webLoginCarLoan()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="webLoginCarLoan" class="com.prac.testng.Day3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="personal loan" duration-ms="136" started-at="2022-03-29T20:45:41 IST" finished-at="2022-03-29T20:45:42 IST">
+      <class name="com.prac.testng.Day1">
+        <test-method status="PASS" signature="demo1()[pri:0, instance:com.prac.testng.Day1@6acdbdf5]" name="demo1" duration-ms="9" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method status="PASS" signature="testDemo2()[pri:0, instance:com.prac.testng.Day1@6acdbdf5]" name="testDemo2" duration-ms="6" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo2 -->
+        <test-method status="PASS" signature="postrequisite()[pri:0, instance:com.prac.testng.Day1@6acdbdf5]" name="postrequisite" is-config="true" duration-ms="1" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrequisite -->
+      </class> <!-- com.prac.testng.Day1 -->
+      <class name="com.prac.testng.Day4">
+        <test-method status="PASS" signature="apiLoginHomeLoan()[pri:0, instance:com.prac.testng.Day4@2d8f65a4]" name="apiLoginHomeLoan" duration-ms="16" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginHomeLoan -->
+        <test-method status="PASS" signature="mobileLoginHomeLoan()[pri:0, instance:com.prac.testng.Day4@2d8f65a4]" name="mobileLoginHomeLoan" duration-ms="10" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method status="PASS" signature="webLoginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:com.prac.testng.Day4@2d8f65a4]" name="webLoginHomeLoan" duration-ms="8" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+      </class> <!-- com.prac.testng.Day4 -->
+      <class name="com.prac.testng.Day2">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:com.prac.testng.Day2@27a8c74e]" name="prerequisite" is-config="true" duration-ms="1" started-at="2022-03-29T20:45:41 IST" finished-at="2022-03-29T20:45:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="pLoan()[pri:0, instance:com.prac.testng.Day2@27a8c74e]" name="pLoan" duration-ms="15" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pLoan -->
+      </class> <!-- com.prac.testng.Day2 -->
+    </test> <!-- personal loan -->
+    <test name="Car Loan" duration-ms="250" started-at="2022-03-29T20:45:41 IST" finished-at="2022-03-29T20:45:42 IST">
+      <class name="com.prac.testng.Day1">
+        <test-method status="PASS" signature="afSuite()[pri:0, instance:com.prac.testng.Day1@6acdbdf5]" name="afSuite" is-config="true" duration-ms="1" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afSuite -->
+      </class> <!-- com.prac.testng.Day1 -->
+      <class name="com.prac.testng.Day3">
+        <test-method status="PASS" signature="bfSuite()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="bfSuite" is-config="true" duration-ms="8" started-at="2022-03-29T20:45:41 IST" finished-at="2022-03-29T20:45:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfSuite -->
+        <test-method status="PASS" signature="bfclass()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="bfclass" is-config="true" duration-ms="1" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfclass -->
+        <test-method status="PASS" signature="bfEveryMethod()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="bfEveryMethod" is-config="true" duration-ms="1" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfEveryMethod -->
+        <test-method status="PASS" signature="mobileLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:com.prac.testng.Day3@1500955a]" name="mobileLoginCarLoan" duration-ms="17" started-at="2022-03-29T20:45:42 IST" data-provider="getdata" finished-at="2022-03-29T20:45:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusrname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan -->
+        <test-method status="PASS" signature="afEveryMethod()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="afEveryMethod" is-config="true" duration-ms="1" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afEveryMethod -->
+        <test-method status="PASS" signature="bfEveryMethod()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="bfEveryMethod" is-config="true" duration-ms="3" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfEveryMethod -->
+        <test-method status="PASS" signature="mobileLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:com.prac.testng.Day3@1500955a]" name="mobileLoginCarLoan" duration-ms="18" started-at="2022-03-29T20:45:42 IST" data-provider="getdata" finished-at="2022-03-29T20:45:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan -->
+        <test-method status="PASS" signature="afEveryMethod()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="afEveryMethod" is-config="true" duration-ms="1" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afEveryMethod -->
+        <test-method status="PASS" signature="bfEveryMethod()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="bfEveryMethod" is-config="true" duration-ms="3" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfEveryMethod -->
+        <test-method status="PASS" signature="mobileLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:com.prac.testng.Day3@1500955a]" name="mobileLoginCarLoan" duration-ms="4" started-at="2022-03-29T20:45:42 IST" data-provider="getdata" finished-at="2022-03-29T20:45:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan -->
+        <test-method status="PASS" signature="afEveryMethod()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="afEveryMethod" is-config="true" duration-ms="0" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afEveryMethod -->
+        <test-method status="PASS" signature="bfEveryMethod()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="bfEveryMethod" is-config="true" duration-ms="0" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfEveryMethod -->
+        <test-method status="PASS" signature="mobileSigninCarLoan(java.lang.String)[pri:0, instance:com.prac.testng.Day3@1500955a]" name="mobileSigninCarLoan" duration-ms="9" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSigninCarLoan -->
+        <test-method status="PASS" signature="afEveryMethod()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="afEveryMethod" is-config="true" duration-ms="1" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afEveryMethod -->
+        <test-method status="PASS" signature="bfEveryMethod()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="bfEveryMethod" is-config="true" duration-ms="4" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfEveryMethod -->
+        <test-method status="PASS" signature="webLoginCarLoan()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="webLoginCarLoan" duration-ms="3" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+        <test-method status="PASS" signature="afEveryMethod()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="afEveryMethod" is-config="true" duration-ms="0" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afEveryMethod -->
+        <test-method status="PASS" signature="bfEveryMethod()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="bfEveryMethod" is-config="true" duration-ms="0" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfEveryMethod -->
+        <test-method status="PASS" signature="apiLoginCarLoan()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="apiLoginCarLoan" duration-ms="4" started-at="2022-03-29T20:45:42 IST" depends-on-methods="com.prac.testng.Day3.webLoginCarLoan, com.prac.testng.Day3.mobileSigninCarLoan" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginCarLoan -->
+        <test-method status="PASS" signature="afEveryMethod()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="afEveryMethod" is-config="true" duration-ms="5" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afEveryMethod -->
+        <test-method status="PASS" signature="afclass()[pri:0, instance:com.prac.testng.Day3@1500955a]" name="afclass" is-config="true" duration-ms="0" started-at="2022-03-29T20:45:42 IST" finished-at="2022-03-29T20:45:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afclass -->
+      </class> <!-- com.prac.testng.Day3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

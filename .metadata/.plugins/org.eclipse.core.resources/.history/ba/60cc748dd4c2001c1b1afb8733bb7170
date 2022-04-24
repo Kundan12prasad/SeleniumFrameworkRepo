@@ -1,0 +1,14 @@
+package org.oauth.practice;
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
+
+
+public class OauthTest {
+
+	public static void main(String[] args) 
+	{
+		given().queryParam("access_token", "")
+
+	}
+
+}

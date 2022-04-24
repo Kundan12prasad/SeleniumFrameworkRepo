@@ -1,0 +1,10 @@
+package org.practice;
+
+public class RestApiBasics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

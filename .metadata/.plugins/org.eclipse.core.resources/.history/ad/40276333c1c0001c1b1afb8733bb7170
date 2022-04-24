@@ -1,0 +1,21 @@
+package com.jira.practice;
+
+import io.restassured.RestAssured;
+
+import static io.restassured.RestAssured.*;
+public class JiraTest {
+
+	public static void main(String[] args) 
+	{
+		RestAssured.baseURI = "http://localhost:8555/";
+		given().pathParam("key","RAA-1").body("\r\n"
+				+ "    \"body\": \"This is my first comment\",\r\n"
+				+ "    \"visibility\": {\r\n"
+				+ "        \"type\": \"role\",\r\n"
+				+ "        \"value\": \"Administrators\"\r\n"
+				+ "    }\r\n"
+				+ "}").post("/rest/issue/key}/comment")
+
+	}
+
+}
