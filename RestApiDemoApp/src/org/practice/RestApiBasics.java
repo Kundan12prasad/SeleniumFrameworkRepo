@@ -50,9 +50,7 @@ public class RestApiBasics {
 		       
 		JsonPath js=new JsonPath(response); //for parsing the json
 		String placeId = js.getString("place_id"); //extracting the place id from json and store it to string var
-		System.out.println(placeId);
-		
-		
+		System.out.println(placeId);	
 		
 		
 		//Update Place

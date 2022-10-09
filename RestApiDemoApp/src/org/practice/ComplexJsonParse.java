@@ -38,7 +38,7 @@ public class ComplexJsonParse {
 			String  courseTitles = js.get("courses["+i+"].title");
 			if(courseTitles.equalsIgnoreCase("RPA"))
 			{
-				 int noOfCopies= js.getInt("courses["+i+"].copies");
+				 int noOfCopies=js.get("courses["+i+"].copies");
 				 System.out.println(noOfCopies);
 				 break;
 			
