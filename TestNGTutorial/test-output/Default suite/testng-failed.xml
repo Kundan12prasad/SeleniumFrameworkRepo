@@ -3,13 +3,39 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.prac.testng.Day1">
+      <class name="com.prac.failedtestcase.TestClass3">
         <methods>
-          <include name="Testdemo2"/>
-          <include name="postrequisite"/>
-          <include name="afSuite"/>
+          <include name="test3"/>
         </methods>
-      </class> <!-- com.prac.testng.Day1 -->
+      </class> <!-- com.prac.failedtestcase.TestClass3 -->
+      <class name="com.parallel.ParallelClasses01">
+        <methods>
+          <include name="test01"/>
+          <include name="test02"/>
+        </methods>
+      </class> <!-- com.parallel.ParallelClasses01 -->
+      <class name="com.prac.testng.Day3">
+        <methods>
+          <include name="webLoginCarLoan"/>
+          <include name="bfclass"/>
+          <include name="afclass"/>
+          <include name="bfSuite"/>
+          <include name="apiLoginCarLoan"/>
+          <include name="afEveryMethod"/>
+          <include name="mobileSigninCarLoan"/>
+          <include name="bfEveryMethod"/>
+        </methods>
+      </class> <!-- com.prac.testng.Day3 -->
+      <class name="com.prac.testng.Day4">
+        <methods>
+          <include name="webLoginHomeLoan"/>
+        </methods>
+      </class> <!-- com.prac.testng.Day4 -->
+      <class name="com.prac.failedtestcase.TestClass2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.prac.failedtestcase.TestClass2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

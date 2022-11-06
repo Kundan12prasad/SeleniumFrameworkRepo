@@ -1,0 +1,5 @@
+13:39:40.981 [AsyncHttpClient-1-3] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+13:39:40.983 [AsyncHttpClient-1-3] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+13:39:40.983 [AsyncHttpClient-1-3] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+13:39:43.499 [AsyncHttpClient-1-4] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+13:39:46.523 [TestNG-tests-3] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x994d9201a46c9bf6

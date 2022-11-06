@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TestNGTutorial"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+        <mapEntry key="com.parallel.ParallelClasses01" value="test02;test01"/>
+        <mapEntry key="com.prac.failedtestcase.TestClass1" value="test1"/>
+        <mapEntry key="com.prac.failedtestcase.TestClass2" value="test2"/>
+        <mapEntry key="com.prac.failedtestcase.TestClass3" value="test3"/>
+        <mapEntry key="com.prac.testng.Day1" value="postrequisite;testDemo2;demo1;afSuite"/>
+        <mapEntry key="com.prac.testng.Day2" value="pLoan;prerequisite"/>
+        <mapEntry key="com.prac.testng.Day3" value="bfclass;mobileLoginCarLoan;afclass;bfEveryMethod;getdata;bfSuite;apiLoginCarLoan;mobileSignoutCarLoan;webLoginCarLoan;afEveryMethod;mobileSigninCarLoan"/>
+        <mapEntry key="com.prac.testng.Day4" value="apiLoginHomeLoan;mobileLoginHomeLoan;webLoginHomeLoan"/>
+        <mapEntry key="com.prac.testng.Listeners" value="onTestFailedButWithinSuccessPercentage;onTestStart;onTestSuccess;onTestFailure;onStart;onFinish;onTestSkipped"/>
+        <mapEntry key="com.retry.RetryAnnotation" value="transform"/>
+        <mapEntry key="com.retry.RetryTest" value="retry"/>
+        <mapEntry key="com.runner.TestRunner" value="main"/>
+    </mapAttribute>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="com.retry.RetryTest"/>
+        <listEntry value="com.runner.TestRunner"/>
+        <listEntry value="com.prac.testng.Day1"/>
+        <listEntry value="com.prac.testng.Day4"/>
+        <listEntry value="com.prac.testng.Listeners"/>
+        <listEntry value="com.prac.testng.Day2"/>
+        <listEntry value="com.prac.testng.Day3"/>
+        <listEntry value="com.retry.RetryAnnotation"/>
+        <listEntry value="com.prac.failedtestcase.TestClass3"/>
+        <listEntry value="com.parallel.ParallelClasses01"/>
+        <listEntry value="com.prac.failedtestcase.TestClass2"/>
+        <listEntry value="com.prac.failedtestcase.TestClass1"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

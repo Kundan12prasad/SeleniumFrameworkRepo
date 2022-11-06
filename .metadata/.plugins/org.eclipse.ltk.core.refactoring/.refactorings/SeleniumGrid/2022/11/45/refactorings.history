@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;GoogleTest.java&apos; to &apos;SeleniumGrid/src/com.grid&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumGrid&apos;&#x0D;&#x0A;- Destination element: &apos;SeleniumGrid/src/com.grid&apos;&#x0D;&#x0A;- Original element: &apos;com.grid.GoogleTest.java&apos;" description="Copy compilation unit" destination="/src&lt;com.grid" element1="/src&lt;com.grid{GoogleTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1667636585881" units="1" version="1.0"/>
+</session>

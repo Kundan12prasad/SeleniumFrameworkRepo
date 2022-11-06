@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [ParallelSuitedemo]" parallel="methods">
+  <test thread-count="2" name="ParallelTestdemo(failed)" parallel="methods">
+    <classes>
+      <class name="com.parallel.ParallelClasses01">
+        <methods>
+          <include name="test03"/>
+        </methods>
+      </class> <!-- com.parallel.ParallelClasses01 -->
+    </classes>
+  </test> <!-- ParallelTestdemo(failed) -->
+</suite> <!-- Failed suite [ParallelSuitedemo] -->

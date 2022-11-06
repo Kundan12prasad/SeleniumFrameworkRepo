@@ -1,8 +1,0 @@
-package com.pojo;
-
-public class AddPlace {
-	
-	private int accuracy;
-	private String name;
-
-}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [FailedTestcase]]">
+  <test thread-count="5" name="RerunTestcase(failed)(failed)">
+    <classes>
+      <class name="com.prac.failedtestcase.TestClass2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.prac.failedtestcase.TestClass2 -->
+      <class name="com.prac.failedtestcase.TestClass3">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.prac.failedtestcase.TestClass3 -->
+    </classes>
+  </test> <!-- RerunTestcase(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [FailedTestcase]] -->

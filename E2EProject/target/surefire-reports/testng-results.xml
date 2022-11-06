@@ -1,35 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="80775" started-at="2022-04-10T20:48:20 IST" finished-at="2022-04-10T20:49:41 IST">
+  <suite name="Suite" duration-ms="38041" started-at="2022-10-09T13:39:36 IST" finished-at="2022-10-09T13:40:14 IST">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberoptions.TestRunner@433d61fb]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="validate user login" duration-ms="80775" started-at="2022-04-10T20:48:20 IST" finished-at="2022-04-10T20:49:41 IST">
-      <class name="cucumberoptions.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberoptions.TestRunner@433d61fb]" name="setUpClass" is-config="true" duration-ms="465" started-at="2022-04-10T20:48:20 IST" finished-at="2022-04-10T20:48:20 IST">
+    <test name="Validate Title" duration-ms="32070" started-at="2022-10-09T13:39:36 IST" finished-at="2022-10-09T13:40:08 IST">
+      <class name="org.academy.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:org.academy.ValidateTitle@1a4927d6]" name="initialize" is-config="true" duration-ms="25891" started-at="2022-10-09T13:39:36 IST" finished-at="2022-10-09T13:40:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberoptions.TestRunner@433d61fb]" name="feature" duration-ms="79494" started-at="2022-04-10T20:48:21 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-04-10T20:49:40 IST">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppTitleTest()[pri:0, instance:org.academy.ValidateTitle@1a4927d6]" name="validateAppTitleTest" duration-ms="58" started-at="2022-10-09T13:40:02 IST" finished-at="2022-10-09T13:40:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.academy.ValidateTitle@1a4927d6]" name="tearDown" is-config="true" duration-ms="6093" started-at="2022-10-09T13:40:02 IST" finished-at="2022-10-09T13:40:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.academy.ValidateTitle -->
+    </test> <!-- Validate Title -->
+    <test name="Validate NavigationBar" duration-ms="33669" started-at="2022-10-09T13:39:36 IST" finished-at="2022-10-09T13:40:10 IST">
+      <class name="org.academy.ValidateNavBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:org.academy.ValidateNavBar@3ad83a66]" name="initialize" is-config="true" duration-ms="27423" started-at="2022-10-09T13:39:36 IST" finished-at="2022-10-09T13:40:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateNavBarTest()[pri:0, instance:org.academy.ValidateNavBar@3ad83a66]" name="validateNavBarTest" duration-ms="312" started-at="2022-10-09T13:40:03 IST" finished-at="2022-10-09T13:40:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavBarTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.academy.ValidateNavBar@3ad83a66]" name="tearDown" is-config="true" duration-ms="5926" started-at="2022-10-09T13:40:04 IST" finished-at="2022-10-09T13:40:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.academy.ValidateNavBar -->
+    </test> <!-- Validate NavigationBar -->
+    <test name="Validate user " duration-ms="38041" started-at="2022-10-09T13:39:36 IST" finished-at="2022-10-09T13:40:14 IST">
+      <class name="org.academy.BaseTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:org.academy.BaseTest@6f43c82]" name="initialize" is-config="true" duration-ms="10125" started-at="2022-10-09T13:39:36 IST" finished-at="2022-10-09T13:39:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initializeDriverTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.academy.BaseTest@6f43c82]" name="initializeDriverTest" duration-ms="23247" started-at="2022-10-09T13:39:46 IST" data-provider="getData" finished-at="2022-10-09T13:40:09 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login into Application]]>
+                <![CDATA[nonrestricteduser@qv.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Resticted User]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberoptions.TestRunner@433d61fb]" name="tearDownClass" is-config="true" duration-ms="19" started-at="2022-04-10T20:49:41 IST" finished-at="2022-04-10T20:49:41 IST">
+        </test-method> <!-- initializeDriverTest -->
+        <test-method status="PASS" signature="initializeDriverTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.academy.BaseTest@6f43c82]" name="initializeDriverTest" duration-ms="4163" started-at="2022-10-09T13:40:09 IST" data-provider="getData" finished-at="2022-10-09T13:40:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qv.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5679]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Resticted User]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumberoptions.TestRunner -->
-    </test> <!-- validate user login -->
+        </test-method> <!-- initializeDriverTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.academy.BaseTest@6f43c82]" name="tearDown" is-config="true" duration-ms="396" started-at="2022-10-09T13:40:14 IST" finished-at="2022-10-09T13:40:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.academy.BaseTest -->
+    </test> <!-- Validate user  -->
   </suite> <!-- Suite -->
 </testng-results>
